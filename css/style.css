@@ -1,0 +1,165 @@
+
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--corBrancaFundo); */
+    background-image: url(/img/bg-home.jpg);
+}
+/* style do header e seus filhos */
+header{
+    text-align: center;
+    width: 100%;
+    background-color: var(--corVermelhaFundo);
+    color: var(--corBrancaFundo);
+    font-size: 100%;
+}
+
+/* configuração do main e seus filhos */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#titulo{
+    margin-bottom: 25px;
+}
+
+    /* main > .campoInputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    } */
+    .campoInputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.137);
+        border-radius: 10px;
+        height: 500px;
+   
+        margin-bottom: 55px;
+        margin-top: 20px;
+    }
+
+    /* .inputCPF{
+        margin-left: -250px;
+        color: rgb(31, 31, 31);
+        font-size: 22px;
+        margin-bottom: 5px;
+    } */
+
+    /* .inputSenha{
+        color: rgb(31, 31, 31);
+        font-size: 22px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    #inputCPF{
+        margin-bottom: 50px;
+    }
+
+    #inputSenha{
+        margin-bottom: 15px;
+    }
+    */
+    #Login-Incorrect{
+        padding: 10px 0px;
+        /* margin-bottom: 15px; */
+        /* opacity: 0; */
+    } 
+
+
+
+        .inputLogin{
+            display: flex;
+            text-align: left;
+            padding-left: 15px;
+            border: 2px solid rgb(206, 206, 206);
+            outline-color: rgb(179, 179, 179);
+            width: 300px;
+            border-radius: 8px;
+            height: 45px;
+            /* margin-top: 10px; */
+            /* margin-bottom: 35px; */
+            background-color: rgb(255, 255, 255);
+            font-size: 18px;
+            font-family: Montserrat;
+            font-weight: 550;
+        }
+
+
+        .inputButton-Login{
+            width: 300px;
+            height: 40px;
+            border: 0px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: rgb(211, 18, 18);
+            color: white;
+            font-size: 21px;
+            font-family: Montserrat;
+            font-weight: 600;
+        }
+            .inputButton-Login:hover{
+                background-color: rgb(241, 68, 68);
+            }
+            .inputButton-Login:active{
+                background-color: rgb(180, 0, 0);
+            }
+
+        .inputReset-Password{
+            margin-top: 15px;
+            font-size: 15px;
+            text-decoration: underline;
+            cursor: pointer;
+            color: rgb(105, 105, 105);
+        }
+
+        .inputRegister{
+            margin-top: 35px;
+            margin-bottom: 25px;
+            font-size: 18px;
+            cursor: default;
+        }
+
+        .inputRegister2{
+            margin-top: -20px;
+            color: rgb(63, 63, 63);
+            font-size: 17px;
+            cursor: default;
+        }
+
+        .clickSpan{
+
+            text-decoration: underline;
+            cursor: pointer;
+            color: rgb(211, 18, 18);
+        }
+
+/* configuração do footer e seus filhos */
+
+
+
+#container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* main > .campoLogin{
+    position: absolute;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4rem;
+    z-index: 2;
+    background-color: aqua;
+}
+ */

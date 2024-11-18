@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(/img/fundoPaginaProduto.jpg); */
+    background-image: url(/img/bg-home.jpg);
+
+}
+
+/* ----------------------------------------- */
+
+datalist {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid blue;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    font-family: sans-serif;
+    width: 350px;
+    padding: 5px;
+    max-height: 10rem;
+    overflow-y: auto;
+    
+  }
+  
+  option {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    color: blue;
+    margin-bottom: 1px;
+     font-size: 18px;
+    cursor: pointer;
+  }
+  
+  option:hover,  .active{
+    background-color: lightblue;
+  }
+/* ----------------------------------------- */
+
+.containerProdutos {
+     /* Arrumar essa porra aqui  */
+}
+
+.produto{
+    position: relative;
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    gap: 4rem;
+    width: 1330px;
+    max-width: 90vw;
+    height: 500px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: baseline;
+    padding: 1rem;
+    background-color: rgba(192, 197, 197, 0.363);
+    border-radius: 20px;
+}
+    .produtosLivros{
+        min-width: 300px;
+        height: 400px;
+        filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.65));
+        margin-left: 2rem;
+        width: 33.33%; /* Cada imagem ocupa 1/3 do contêiner */
+        box-sizing: border-box; /* Para garantir que o padding não afete a largura */
+    }
+
+    .imagens {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(100% * 5); /* 5 imagens no total */
+
+    }
+
+button {
+    top: 50%;
+    height: 50px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev{
+    font-size: 75px;
+    margin-right: 5px;
+}
+
+.next{
+    font-size: 75px;
+    margin-left: 5px;
+}
+
+/* .footerDireitos{
+    height: 180px;
+    display: flex;
+justify-content: end;
+} */
+
+/* .direitosTxt{
+    margin-bottom: 10px;
+} */

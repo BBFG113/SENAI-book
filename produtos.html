@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="shortcut icon" href="img/icones/favIconeLivro.svg" type="image/x-icon">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Icones do header -->
+        <div class="imagensHeader">
+
+            <img style="margin-left: 2rem;" class="icone" src="img/icones/iconeConfiguracao.svg" alt="Configurações" title="Configurações">
+
+            <a href="https://www.sp.senai.br/">
+                <img class="logoSENAI" src="img/logos/logo-senai-1.png" alt="SENAI">
+            </a>
+            <!-- <input type="search" 
+           autocomplete="off" role="combobox" list="" name="browsers" id="input">
+            <datalist id="browsers" role="listbox">
+                <option value="Matematica">Matematica</option>
+                <option value="Lingua portuguesa">Lingua portuguesa</option>
+                <option value="Historias">Historias</option>
+                <option value="Fisica">Fisica</option>
+            </datalist> -->
+
+            <img style="margin-right: 2rem;" class="icone" src="img/icones/iconeUsuario.svg" alt="Usuário" title="Usuário">
+
+        </div>
+    </header>
+    
+    <!-- Main -->
+    <main>
+        <br>
+        <h1>
+            Bem-vindo a biblioteca 
+            do SENAI Nami Jafet!
+        </h1>
+        <br>
+        <h2>Mais recomendados:</h2><br>
+        <div class="containerProdutos" style="display: flex; justify-content: center; align-items: center;">
+            <button class="prev" onclick="mudarImagem(-1)">&#10094;</button>
+            <div class="produto">
+                <div class="imagens">
+                    <img src="img/livros/livro0.png" class="produtosLivros" alt="Imagem 1">
+                    <img src="img/livros/livro1.png" class="produtosLivros" alt="Imagem 2">
+                    <img src="img/livros/livro2.png" class="produtosLivros" alt="Imagem 3">
+                    <img src="img/livros/livro3.png" class="produtosLivros" alt="Imagem 4">
+                    <img src="img/livros/livro4.png" class="produtosLivros" alt="Imagem 5">
+                </div>
+            </div>
+            <button class="next" onclick="mudarImagem(1)">&#10095;</button>
+        </div>
+        <br><br><br>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footerContatos">
+            <h3 class="developers">Desenvolvido por:</h3>
+            <div class="contatoDesenvolvedor">
+                <!-- link para github (Bianca) -->
+                <a class="linkDesenvolvedor" target="_blank" href="https://github.com/BiaOrdine">
+                    <img class="github-mark" src="img/icones/github-mark/github-mark.png" alt="logo do Github">
+                    <span> &nbsp; Bianca</span>
+                </a>
+                <!-- link para github (Bruna) -->
+                <a class="linkDesenvolvedor" target="_blank" href="https://github.com/Bru008">
+                    <img class="github-mark" src="img/icones/github-mark/github-mark.png" alt="logo do Github">
+                    <span> &nbsp; Bruna</span>
+                </a>
+            </div>
+                <!-- link para github (Felipe) -->
+            <div class="contatoDesenvolvedor">
+                <a class="linkDesenvolvedor" target="_blank" href="https://github.com/FelipeGSG">
+                    <img class="github-mark" src="img/icones/github-mark/github-mark.png" alt="logo do Github">
+                    <span> &nbsp; Felipe &nbsp;</span>
+                </a>
+                <!-- link para github (Guilherme) -->
+                <a class="linkDesenvolvedor" target="_blank" href="https://github.com/GuilhSchneider">
+                    <img class="github-mark" src="img/icones/github-mark/github-mark.png" alt="logo do Github">
+                    <span> &nbsp; Guilherme</span>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="footerDireitos">
+            <p class="direitosTxt">&copy; Todos os direitos reservados </p> 
+        </div>
+        <div>
+            <a href="https://www.fiesp.com.br/">&nbsp; FIESP &nbsp;</a>|  
+            <a href="https://www.sesisp.org.br/">&nbsp; SESI &nbsp;</a>| 
+            <a href="https://www.sp.senai.br/">&nbsp; SENAI &nbsp;</a>
+            <br>
+        </div>
+    </footer>
+
+    <!-- link para os scripts ↓ -->
+    <script src="scripts/produtos.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+:root{
+    --corVermelhaFundo: #e30613;
+    --corBrancaFundo: #ffffff;
+    --corPretoFundo: #000000;
+    --corCinzaFundo: #878787;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+body{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--corVermelhaFundo);
+    color: var(--corBrancaFundo);
+    font-size: 70%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+    a:active{
+        color: #e30613;
+    }
+
+/*  */
+/* nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+} */
+
+    .imagensHeader{
+        padding: 10px 0px;
+        background-color: var(--corVermelhaFundo);
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+        .icone{
+            width: 80px;
+            transition: 0.3s;
+            border-radius: 50%;
+
+        }
+            .icone:hover{
+                background-color: rgba(197, 183, 183, 0.712);
+            }
+        .logoSENAI{
+            width: 300px;
+            min-height: 14px;
+        }
+    .logosHeader{
+        width: 42px;
+        height: 14px;
+    }
+
+
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    border-top: 5px solid lightgray;
+
+    background-color: rgba(250, 250, 250, 0.600);
+
+    padding: 25px;
+}
+    .footerContatos,
+    .footerDireitos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30vw;
+    }
+    .developers{
+        margin-bottom: 10px;
+    }
+
+
+    .github-mark{
+        width: 50px;
+    }
+        .contatoDesenvolvedor{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            justify-content: start;
+            width: 350px;
+        }
+        .linkDesenvolvedor{
+            display:flex;align-items: center;
+        }
+        .footerDireitos{
+            height: 180px;
+            display: flex;
+        justify-content: end;
+        }
+        
+        .direitosTxt{
+            margin-bottom: 10px;
+        }

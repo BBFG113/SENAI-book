@@ -1,0 +1,18 @@
+{
+  "cadastros": [
+    {
+      "id": "d70d",
+      "name": "nomeTeste",
+      "surname": "sobrenomeTeste",
+      "username": "usernameTeste",
+      "password": "senhaTeste"
+    },
+    {
+      "id": "0fbd",
+      "name": "Senai",
+      "surname": "Mogi",
+      "username": "senai2024",
+      "password": "mogi#senai"
+    }
+  ]
+}
